@@ -23,7 +23,6 @@ class BinarySearch:
         print(helper)
 
             
-    
 num = input("how many item do you want to enter? ")
 x = BinarySearch(num)
 x.create

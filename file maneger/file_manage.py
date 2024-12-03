@@ -5,8 +5,7 @@ class FileMainpulator:
         with open(f"{f_name}.txt" , "r") as file:
             if read_option == 1:
                     line = int(input("line = "))
-                    content = file.readline()
-                    for i in range(line-1):
+                    for i in range(line):
                         content = file.readline()
                     print(content)
             elif read_option == 2:
